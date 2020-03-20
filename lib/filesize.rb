@@ -22,7 +22,7 @@ class Filesize
   BINARY = {
     :regexp => /^([\d,.]+)?[[:space:]]?(?:([kmgtpezy])i)?b?$/i,
     :multiplier => 1024,
-    :prefixes => TYPE_PREFIXES[:BINARY],
+    :prefixes => TYPE_PREFIXES[:SI],
     :presuffix => 'i' # deprecated
   }
 
